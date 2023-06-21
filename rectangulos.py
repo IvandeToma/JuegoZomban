@@ -1,0 +1,11 @@
+#copiar y pegar en el while del juego
+    #pygame.draw.rect(pantalla, ROJO, personaje.rect)
+    #pantalla.blit(personaje.image,personaje.rect)
+    #pygame.draw.rect(pantalla, ROJO, zombie.rect)
+    #pantalla.blit(zombie.image_zom,zombie.rect)
+    #pygame.draw.rect(pantalla, ROJO, disparo.rect)
+    #pantalla.blit(disparo.image,disparo.rect)
+    #pygame.draw.rect(pantalla, ROJO, corazones.rect)
+    #pantalla.blit(corazones.image,corazones.rect)
+    # pygame.draw.rect(pantalla, AZUL, rect_mouse)
+    # pantalla.blit(surface_mou,rect_mouse)
