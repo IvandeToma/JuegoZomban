@@ -18,8 +18,7 @@ class Personaje(pygame.sprite.Sprite):
         self.esta_der = True
         self.esta_izq = False
         self.cuenta_pasos = 0
-        self.contador_muerto =  0
-
+        
         #kills
         self.contador_kills = 0
         self.contador_tiros_acertados = 0
@@ -75,10 +74,10 @@ class Personaje(pygame.sprite.Sprite):
             self.izquierda = False
             self.esta_der = False
             self.esta_izq = False
-        elif precionada[pygame.K_SPACE]:
+        
+        if precionada[pygame.K_SPACE]:
             self.dispara = True
-
-        if not precionada[pygame.K_SPACE]:
+        elif not precionada[pygame.K_SPACE]:
             self.dispara = False
             self.esta_der = True
 
